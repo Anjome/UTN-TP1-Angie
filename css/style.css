@@ -4,16 +4,125 @@
     font-family: "EB Garamond", serif;
 }
 
+h1 {
+    color: white;
+    font-size: small;
+}
+
+.dropdown-item {
+    color: green;
+    background-color: rgb(194, 236, 222);
+    margin-top: 3px;
+    border-radius: 10px;
+}
+
 .img-logo {
     width: 100px;
     height: 100px;
-    border-radius: 50%;
+    border-radius: 20%;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+figcaption {
+    color: white;
+    font-size: small;
+    text-align: center;
 }
 
 .btn-defensa-consumidor {
-    padding: 5px;
     background-color: rgb(179, 176, 176);
-    border-radius: 20px;
+    border-radius: 5px;
     text-decoration: none;
     color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+main {
+    background-color: rgb(200, 233, 222);
+
+}
+
+.Container {
+    height: 100vh;
+    padding-top: 150px;
+    background-image: url(../asset/img-main.jpeg);
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+
+}
+
+.text-h2 {
+    text-align: center;
+    font-size: medium;
+    padding: 10px;
+    color: white;
+}
+
+.Nosotros-lista {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px;
+    list-style: none;
+
+}
+
+li {
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+P {
+    font-weight: lighter;
+    color: white;
+}
+
+.card {
+    background-color: brown;
+    padding: 10px;
+
+}
+
+.card-body {
+    background-color: rgb(182, 230, 182);
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+
+.card-titulo {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.card-text {
+    text-align: center;
+    font-size: large;
+    color: green;
+    font-weight: 700;
+}
+
+a {
+    border-radius: 10px;
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+.card-title {
+    padding: 10px;
+}
+
+.btn-defensa-consumidor {
+    background-color: rgb(182, 230, 182);
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
 }
